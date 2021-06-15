@@ -1,0 +1,8 @@
+(executables
+    (names main)
+    (modes (native exe))
+    (ocamlopt_flags (:standard -O3))
+    (promote (until-clean))
+    (libraries pcap-format mmap ipaddr cstruct)
+    (preprocess (pps ppx_cstruct)))
+

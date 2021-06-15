@@ -1,0 +1,8 @@
+opam-version: "2.0"
+version: "0.1"
+maintainer: "cmisa@cs.uoregon.edu"
+authors: ["Chris Misa"]
+homepage: "https://github.com/chris-misa/pcap-ocaml"
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+]
